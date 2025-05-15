@@ -33,8 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
         // StringRequest diye localhost er link gula k easily string a convert kora jay..
 
+
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "http://192.168.1.101:80/demo/hello.php";
+        String url = "http://192.168.1.101/apps/data.php";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
